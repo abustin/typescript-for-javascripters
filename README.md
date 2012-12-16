@@ -4,21 +4,21 @@
 
 Yet another compile to JavaScript language, and it's written by Microsoft, :x yuk!  But wait! It's actually a very compelling solution. 
 
-There are now many languages set-out to become the new JavaScript, or a strong alternative to JS, but TypeScript is in non of those camps.  Instead of leaving JavScript behind, TypeScript is moving it forward by being a superset of JavaScript.
+Instead of leaving JavScript behind, TypeScript is moving it forward.  There are many languages set-out to become the new JavaScript, or become a strong alternative. But TypeScript is in non of those camps. 
  
 
 ### 1.1 JavaScript is TypeScript ###
 
-TypeScript is a "superset" of JavaScript; it extends existing JavaScript with extra syntax and features. Even if you skipped all of the features TypeScript introduced, you could still say that you were writing TypeScript. And yes, you're TypeScriptless JavaScript code will still compile using tsc, even though you're looking at plain JavaScript.  But let's not get silly now...
+TypeScript is a "superset" of JavaScript; it extends existing JavaScript spec with extended syntax and features. Even if you skipped all of the features TypeScript introduced, you could still say that you were writing TypeScript. And yes, you're TypeScriptless JavaScript code will still compile using tsc, even though you're looking at plain JavaScript.  But let's not get silly now...
 
 "So, Microsoft just invented these new features?  I bet it's very .NETish".  And again, we have to give Microsoft some credit here.  The added TypeScript syntax is all based on future/draft JavaScript (EcmaScript) specifications.  This means that the TypeScript you write today will look like the JavaScript you'll be writing tomorrow; it's future proof.
 
-Well that's the theory; we have seen this all before.  Back in 2006, Adobe jumped the gun on implementing and shipping on a draft EcmaScript spec that was untimely dropped. That language was ActionScript 3, the current scripting language of Adobe Flash, and depending on who you speak to, it isn't doing so well these days.  But lucky for us JavaScripters, the "byte-code" we end up with *is* JavaScript, so the risk involved is far lower than Adobe's gamble.
+But that's all theory; we have seen this all before.  Back in 2006, Adobe jumped the gun on implementing and shipping on a draft EcmaScript spec that was untimely dropped. That language was ActionScript 3, the current scripting language of Adobe Flash, and depending on who you speak to, it isn't doing so well these days.  But lucky for us JavaScripters, the "byte-code" we end up with *is* JavaScript, so the risk involved is far lower than Adobe's gamble.
 
 
 ### 1.2 Compiled TypeScript is JavaScript (dur!) ###
 
-When TypeScript is compiled we get regular JavaScript. That compiled JavaScript can be executed in any regular JS environments (browser, Node.js, etc).  But unlike some other "compile to JavaScript" languages, the output from tsc is extremely clean and readable.  In fact, the output from tsc is so clean you could choose to abandon TypeScript halfway through a project and continue using the compiled JavaScript.  We are spared variable names such as $ax_3; what goes in is what goes out.  Code is not minified or obfuscated, and there's no boilerplate abstraction. Instead it's beautifully formatted and linted JavaScript, almost as if Douglas Crockford wrote it himself.
+When TypeScript is compiled, we get regular JavaScript as output. That compiled JavaScript can be executed in any regular JS environments (browser, Node.js, etc).  But unlike some other "compile to JavaScript" languages, the output from tsc is extremely clean and readable.  In fact, the output from tsc is so clean you could abandon TypeScript halfway through a project and continue using the compiled JavaScript.  We are spared variable names such as $ax_3; what goes in is what comes out.  The code is not minified or obfuscated, and there's no boilerplate abstraction. Instead it's beautifully formatted and linted JavaScript, almost as if Douglas Crockford wrote it himself.
 
 ### 1.3 Why and when to use TypeScript ###
 
